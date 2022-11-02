@@ -17,6 +17,10 @@ export default {
         rel: 'stylesheet',
         type: 'text/css',
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Poppins'
       }
     ]
   },
@@ -41,7 +45,22 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    [
+      'nuxt-mail',
+      {
+        message: {
+          to: 'muhammad.aamir@darvis.com'
+        },
+        smtp: {
+          service: 'gmail',
+          auth: {
+            user: 'no-reply@darvis.com',
+            pass: 'pnutzgvzrdviqawz'
+          }
+        }
+      }
+    ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

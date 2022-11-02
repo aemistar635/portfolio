@@ -1,6 +1,6 @@
 <template>
   <header
-    class="sticky top-0 z-10 lg:relative mt-5 border block py-[25px] rounded-[16px] bg-white dark:bg-[#111111]"
+    class="sticky top-0 z-10 lg:relative mt-5 lg:border block py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
   >
     <nav>
       <ul class="flex justify-center items-center flex-wrap 2xl:gap-0 gap-6">

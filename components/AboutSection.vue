@@ -14,7 +14,7 @@
             <!-- profile image  -->
             <img
               src="https://bostamihtml.ibthemespro.com/images/about/avatar.jpg"
-              class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+              class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] w-full object-cover"
               alt="about"
             >
             <div class="pt-[100px] pb-8">

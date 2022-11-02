@@ -15,7 +15,7 @@
         </div>
         <div
           id="theme-toggler"
-          class="bg-rose-500 rounded-full flex justify-center items-center bg-white text-3xl p-2 cursor-pointer text-white"
+          class="bg-rose-500 rounded-full flex justify-center items-center bg-white p-2 cursor-pointer text-white text-[16px]"
         >
           <i
             v-if="!darkMode"
