@@ -1,28 +1,28 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'profile',
+    title: "Muhammad Aamir Portfolio",
     htmlAttrs: {
-      lang: 'en'
+      lang: "en",
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { hid: "description", name: "description", content: "" },
+      { name: "format-detection", content: "telephone=no" },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
-        rel: 'stylesheet',
-        type: 'text/css',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
       },
       {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Poppins'
-      }
-    ]
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Poppins",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -37,38 +37,38 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    "@nuxtjs/tailwindcss",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    "@nuxtjs/axios",
     [
-      'nuxt-mail',
+      "nuxt-mail",
       {
         message: {
-          to: 'muhammad.aamir@darvis.com'
+          to: "muhammad.aamir@darvis.com",
         },
         smtp: {
-          service: 'gmail',
+          service: "gmail",
           auth: {
-            user: 'no-reply@darvis.com',
-            pass: 'pnutzgvzrdviqawz'
-          }
-        }
-      }
-    ]
+            user: "no-reply@darvis.com",
+            pass: "pnutzgvzrdviqawz",
+          },
+        },
+      },
+    ],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/'
+    baseURL: "/",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
-}
+  build: {},
+};
