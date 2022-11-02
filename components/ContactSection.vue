@@ -1,5 +1,6 @@
 <template>
   <div id="contact" class="bg-white lg:rounded-b-2xl dark:bg-[#111111] py-10">
+    <SuccessModel v-if="sendMailStatus" />
     <h3
       class="heading dark:text-white font-bold font-robotoSlab px-2 sm:px-5 md:px-10 lg:px-14 mb-4"
     >
@@ -18,9 +19,7 @@
       </h3>
 
       <form>
-        <div
-          data-success="Your message has been received, We will contact you soon."
-        />
+        <div data-success="Your message has been received, We will contact you soon." />
         <div class="mt-1">
           <span>Please Fill Required Fields</span>
         </div>
@@ -87,16 +86,14 @@
           type="button"
           class="px-6 py-2 rounded-lg border-[2px] mt-3 border-color-910 font-semibold cursor-pointer hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] hover:text-white transition-colors duration-300 ease-in-out hover:border-transparent dark:text-white"
           value="Submit"
+          :disabled="disableSendBtn"
           @click="sendForm"
         >
       </form>
     </div>
 
     <!-- footer start -->
-    <footer
-      class="overflow-hidden rounded-b-2xl"
-      style="background: transparent"
-    >
+    <footer class="overflow-hidden rounded-b-2xl" style="background: transparent">
       <p class="text-center py-6 text-gray-lite dark:text-color-910">
         © 2022 All Rights Reserved by
         <a
@@ -119,7 +116,19 @@ export default {
       loading: false,
       name: '',
       email: '',
-      message: ''
+      message: '',
+      sendMailStatus: false
+    }
+  },
+  computed: {
+    disableSendBtn () {
+      if (!this.name || !this.email) {
+        return true
+      } else if (this.loading) {
+        return true
+      } else {
+        return false
+      }
     }
   },
   methods: {
@@ -179,8 +188,13 @@ export default {
         this.name = ''
         this.email = ''
         this.message = ''
+        this.sendMailStatus = true
+        setTimeout(() => {
+          this.sendMailStatus = false
+        }, 8000)
       } catch (e) {
         this.loading = false
+        this.sendMailStatus = false
       }
     }
   }
