@@ -5,9 +5,7 @@
       <div class="container sm:px-5 md:px-10 lg:px-14">
         <div class="py-12 px-4 md:px-0">
           <!-- resume page title -->
-          <h2
-            class="text-[35px] dark:text-white font-bold font-robotoSlab pb-5"
-          >
+          <h2 class="heading dark:text-white font-bold font-robotoSlab pb-5">
             Resume
           </h2>
           <div

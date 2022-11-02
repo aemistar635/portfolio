@@ -1,7 +1,7 @@
 <template>
   <div id="contact" class="bg-white lg:rounded-b-2xl dark:bg-[#111111] py-10">
     <h3
-      class="text-[35px] dark:text-white font-bold font-robotoSlab px-2 sm:px-5 md:px-10 lg:px-14 mb-4"
+      class="heading dark:text-white font-bold font-robotoSlab px-2 sm:px-5 md:px-10 lg:px-14 mb-4"
     >
       Contact
     </h3>
@@ -9,17 +9,19 @@
       class="mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2 bg-[#F3F6F6] rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]"
     >
       <h3 class="text-4xl">
-        <span class="text-gray-lite dark:text-[#A6A6A6]">I'm always open to discussing product</span>
-        <br>
-        <span class="font-semibold dark:text-white">design work or partnerships.</span>
+        <p class="text-gray-lite dark:text-[#A6A6A6] mb-1">
+          I'm always open to discussing product
+        </p>
+        <p class="font-semibold dark:text-white">
+          design work or partnerships.
+        </p>
       </h3>
 
       <form>
         <div
-          class="returnmessage"
           data-success="Your message has been received, We will contact you soon."
         />
-        <div class="empty_notice">
+        <div class="mt-1">
           <span>Please Fill Required Fields</span>
         </div>
 

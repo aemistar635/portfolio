@@ -3,7 +3,7 @@
     <div class="lg:rounded-t-2xl bg-white dark:bg-[#111111]">
       <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
         <!-- about page title -->
-        <h3 class="text-[35px] dark:text-white font-bold font-robotoSlab pb-5">
+        <h3 class="heading dark:text-white font-bold font-robotoSlab pb-5">
           About Me
         </h3>
         <!-- personal info for mobile devices start -->

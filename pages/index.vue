@@ -12,4 +12,10 @@ export default {
 html {
   scroll-behavior: smooth;
 }
+.heading {
+  font-size: 2rem;
+}
+.primary-text-color {
+  @apply text-rose-500;
+}
 </style>

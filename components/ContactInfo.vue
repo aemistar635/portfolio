@@ -1,7 +1,7 @@
 <template>
   <div class="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
     <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
-      <span class="socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
+      <span class="bg-white dark:bg-black text-[#E93B81] shadow-md">
         <i class="fas fa-mobile-alt" />
       </span>
       <div class="text-left ml-2.5">
@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-      <span class="socialbtn bg-white dark:bg-black text-[#6AB5B9] shadow-md">
+      <span class="bg-white dark:bg-black text-[#6AB5B9] shadow-md">
         <i class="far fa-envelope" />
       </span>
       <div class="text-left ml-2.5">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-      <span class="socialbtn bg-white dark:bg-black text-[#FD7590] shadow-md">
+      <span class="bg-white dark:bg-black text-[#FD7590] shadow-md">
         <i class="fas fa-map-marker-alt" />
       </span>
       <div class="text-left ml-2.5">
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="flex py-2.5">
-      <span class="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
+      <span class="bg-white dark:bg-black text-[#C17CEB] shadow-md">
         <i class="far fa-calendar-alt" />
       </span>
       <div class="text-left ml-2.5">

@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
   <div
-    class="bg-white font-['Poppins'] dark:bg-gray-700 dark:text-white transition-all duration-1000 scroll-smooth"
+    class="bg-white font-['Poppins'] dark:bg-gray-700 dark:text-white transition-all duration-1000"
     :class="darkMode ? 'dark' : 'light'"
   >
     <!-- {{--    nav-bar--}} -->
@@ -17,11 +17,7 @@
           id="theme-toggler"
           class="bg-rose-500 rounded-full flex justify-center items-center bg-white p-2 cursor-pointer text-white text-[16px]"
         >
-          <i
-            v-if="!darkMode"
-            class="far fa-moon"
-            @click="darkMode = !darkMode"
-          />
+          <i v-if="!darkMode" class="far fa-moon" @click="darkMode = !darkMode" />
           <i v-else class="fas fa-sun" @click="darkMode = !darkMode" />
         </div>
       </div>
