@@ -1,9 +1,7 @@
 <template>
   <div id="contact" class="bg-white lg:rounded-b-2xl dark:bg-[#111111] py-10">
     <SuccessModel v-if="sendMailStatus" />
-    <h3
-      class="heading dark:text-white font-bold font-robotoSlab px-2 sm:px-5 md:px-10 lg:px-14 mb-4"
-    >
+    <h3 class="heading dark:text-white font-bold px-2 sm:px-5 md:px-10 lg:px-14 mb-4">
       Contact
     </h3>
     <div
@@ -13,9 +11,7 @@
         <p class="text-gray-lite dark:text-[#A6A6A6] mb-1">
           I'm always open to discussing product
         </p>
-        <p class="font-semibold dark:text-white">
-          design work or partnerships.
-        </p>
+        <p class="font-semibold dark:text-white">design work or partnerships.</p>
       </h3>
 
       <form>
@@ -34,7 +30,7 @@
             class="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer"
             placeholder=" "
             required=""
-          >
+          />
           <label
             for="name"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
@@ -53,7 +49,7 @@
             class="block autofill:text-red-900 needed py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#5185D4] peer"
             placeholder=" "
             required=""
-          >
+          />
           <label
             for="email"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
@@ -72,7 +68,7 @@
             class="block py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer"
             placeholder=" "
             required=""
-          >
+          />
           <label
             for="message"
             class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#CA56F2] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
@@ -88,7 +84,7 @@
           value="Submit"
           :disabled="disableSendBtn"
           @click="sendForm"
-        >
+        />
       </form>
     </div>
 
@@ -101,7 +97,8 @@
           href=""
           target="_blank"
           rel="noopener noreferrer"
-        >am</a>.
+          >am</a
+        >.
       </p>
     </footer>
     <!-- footer end -->
@@ -110,31 +107,31 @@
 
 <script>
 export default {
-  name: 'ContactSection',
-  data () {
+  name: "ContactSection",
+  data() {
     return {
       loading: false,
-      name: '',
-      email: '',
-      message: '',
-      sendMailStatus: false
-    }
+      name: "",
+      email: "",
+      message: "",
+      sendMailStatus: false,
+    };
   },
   computed: {
-    disableSendBtn () {
+    disableSendBtn() {
       if (!this.name || !this.email) {
-        return true
+        return true;
       } else if (this.loading) {
-        return true
+        return true;
       } else {
-        return false
+        return false;
       }
-    }
+    },
   },
   methods: {
-    async sendForm () {
+    async sendForm() {
       try {
-        this.loading = true
+        this.loading = true;
         await this.$mail.send({
           from: this.name,
           replyTo: this.email,
@@ -161,7 +158,6 @@ export default {
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Hi there,</p>
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Name: <b> ${this.name}</b></p>
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Email: <b> ${this.email}</b></p>
-                        <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Organization: <b> ${this.organization}</b></p>
                         <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px;">Message: <br> ${this.message}</p>
                       </td>
                     </tr>
@@ -181,23 +177,23 @@ export default {
     </table>
   </body>
 </html>
-          `
-        })
-        this.loading = false
+          `,
+        });
+        this.loading = false;
 
-        this.name = ''
-        this.email = ''
-        this.message = ''
-        this.sendMailStatus = true
+        this.name = "";
+        this.email = "";
+        this.message = "";
+        this.sendMailStatus = true;
         setTimeout(() => {
-          this.sendMailStatus = false
-        }, 8000)
+          this.sendMailStatus = false;
+        }, 8000);
       } catch (e) {
-        this.loading = false
-        this.sendMailStatus = false
+        this.loading = false;
+        this.sendMailStatus = false;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 <style></style>
