@@ -36,36 +36,41 @@
           </div>
         </div>
 
-        <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden">
+        <div
+          class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden"
+        >
           <div class="col-span-12 space-y-2.5">
             <div class="lg:mr-16 text-[#44566c] dark:text-color-910">
               <p class="leading-7">
-                Over the past 9 years, as a Front-end Developer, I have designed,
-                developed, and launched customized, highly responsive websites and
-                e-commerce solutions using advanced technologies. In addition, I have
-                consistently met client expectations and project milestones while working
-                effectively in deadline-driven environments. Please consider the following
-                highlights:
+                Over the past 9 years, as a Front-end Developer, I have
+                designed, developed, and launched customized, highly responsive
+                websites and e-commerce solutions using advanced technologies.
+                In addition, I have consistently met client expectations and
+                project milestones while working effectively in deadline-driven
+                environments. Please consider the following highlights:
               </p>
               <ul class="list-disc px-6 my-3 space-y-4">
                 <li>
-                  Designed and developed front-end for 180+ webpages using jQuery,
-                  JavaScript, HTML5, and CSS/Bootstrap
+                  Designed and developed front-end for 180+ webpages using
+                  jQuery, JavaScript, HTML5, and CSS/Bootstrap
                 </li>
-                <li>Built 190+ components in ASP.Net using C# asynchronous methods</li>
                 <li>
-                  Created user-centric e-commerce sites for small business owners using
-                  various web technologies including Shopify and WordPress
+                  Built 190+ components in ASP.Net using C# asynchronous methods
+                </li>
+                <li>
+                  Created user-centric e-commerce sites for small business
+                  owners using various web technologies including Shopify and
+                  WordPress
                 </li>
               </ul>
               <p class="leading-7 mt-2.5">
-                My aim is to bring across your message and identity in the most creative
-                way. I created websites for many famous brand companies.
+                My aim is to bring across your message and identity in the most
+                creative way. I created websites for many famous brand
+                companies.
               </p>
             </div>
           </div>
         </div>
-        </h3>
       </div>
 
       <!-- what i do section start -->
@@ -75,103 +80,104 @@
         </h3>
         <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
           <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/responsive-design.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                Ui/Ux Design
+                Responsive Design
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Using responsive utility variants to build adaptive user
+                interfaces.
               </p>
             </div>
           </div>
 
           <div class="about-box bg-[#fefaf0] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon1.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/frameworks.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                App Development
+                Frameworks
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                I have expertise in following frontend frameworks. Vue.js,
+                Angular.js, .
               </p>
             </div>
           </div>
 
           <div class="about-box bg-[#fcf4ff] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon2.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/psd-to-html.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                Photography
+                PSD to HTML
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam euismod volutpat.
               </p>
             </div>
           </div>
 
           <div class="about-box bg-[#fff4f4] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon3.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/cross-browser-compatibility.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                Photography
+                Cross browser compatibility
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Cross-browser compatibility is the ability of a website or web
+                application to function across different browsers and degrade
+                gracefully when browser features are absent or lacking.
               </p>
             </div>
           </div>
 
           <div class="about-box bg-[#fff0f8] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon4.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/git.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                Managment
+                Git
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam euismod volutpat.
               </p>
             </div>
           </div>
 
           <div class="about-box bg-[#f3faff] dark:bg-transparent">
-            <!-- <img
-                      class="w-10 h-10 object-contain block"
-                      src="./images/icons/icon5.svg"
-                      alt="icon"
-                    /> -->
+            <img
+              class="w-10 h-10 object-contain block"
+              :src="require(`~/static/web-development.png`)"
+              alt="icon"
+            >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Web Development
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam euismod volutpat.
               </p>
             </div>
           </div>
@@ -186,4 +192,13 @@ export default {
   name: 'AboutSection'
 }
 </script>
-<style></style>
+<style>
+.about-box {
+  display: flex;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(33 36 37 / var(--tw-border-opacity));
+  padding: 1.5rem;
+}
+</style>
