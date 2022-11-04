@@ -9,7 +9,7 @@
         <!-- personal info for mobile devices start -->
         <div class="lg:hidden">
           <div
-            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0"
+            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[50px] lg:mt-0"
           >
             <!-- profile image  -->
             <div class="max-w-screen-lg mx-auto mt-5">
