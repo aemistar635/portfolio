@@ -12,12 +12,14 @@
             class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0"
           >
             <!-- profile image  -->
-            <img
-              src="https://bostamihtml.ibthemespro.com/images/about/avatar.jpg"
-              class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] w-full object-cover"
-              alt="about"
-            >
-            <div class="pt-[100px] pb-8">
+            <div class="max-w-screen-lg mx-auto mt-5">
+              <img
+                src="https://bostamihtml.ibthemespro.com/images/about/avatar.jpg"
+                class="mx-auto w-[240px] h-[240px] drop-shadow-xl rounded-[20px] w-full object-cover"
+                alt="about"
+              >
+            </div>
+            <div class="pb-8">
               <h2 class="mt-6 mb-1 text-[26px] font-semibold dark:text-white">
                 Monalisa Ashley
               </h2>
@@ -27,7 +29,7 @@
                 Ui/Ux Designer
               </h3>
 
-              <SocialContacts />
+              <SocialContacts class="" />
 
               <!-- Contact info start -->
               <ContactInfo />
