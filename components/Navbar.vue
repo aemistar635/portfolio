@@ -22,7 +22,7 @@
       </div>
       <div v-if="openMenu" class="lg:hidden block">
         <ul
-          class="block w-full fixed mt-[80px] rounded-b-[20px] shadow-md bg-white dark:bg-[#1d1d1d]"
+          class="block w-full sticky mt-[80px] rounded-b-[20px] shadow-md bg-white dark:bg-[#1d1d1d]"
         >
           <li v-for="nav in navBar" :key="nav.name">
             <a
