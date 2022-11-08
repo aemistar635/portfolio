@@ -9,38 +9,11 @@
       id="nav"
       class="min-h-screen w-full flex flex-col bg-light-custom dark:bg-dark-custom bg-no-repeat bg-center bg-cover"
     >
-      <div class="hidden lg:block">
-        <div class="w-1/2 mx-auto mt-8 flex justify-between items-center">
-          <div class="text-rose-500 text-2xl font-bold">
-            logo
-          </div>
-          <div
-            id="theme-toggler"
-            class="bg-rose-500 rounded-full flex justify-center items-center bg-white p-2 cursor-pointer text-white text-[16px]"
-          >
-            <i
-              v-if="!darkMode"
-              class="far fa-moon"
-              @click="darkMode = !darkMode"
-            />
-            <i v-else class="fas fa-sun" @click="darkMode = !darkMode" />
-          </div>
-        </div>
-      </div>
-
       <div class="block lg:hidden">
         <div class="section-bg">
-          <div class="w-full flex justify-between px-4">
-            <a href="/"> logo </a>
+          <div class="w-full flex justify-between items-center px-4">
+            <DarkMode @darkMode="themeMode" />
             <div class="flex items-center">
-              <!-- dark and light mode toggle -->
-              <i
-                v-if="!darkMode"
-                class="far fa-moon"
-                @click="darkMode = !darkMode"
-              />
-              <i v-else class="fas fa-sun" @click="darkMode = !darkMode" />
-              <!-- mobile toggle button -->
               <button id="menu-toggle" type="button" class="menu-toggle-btn">
                 <i
                   id="menu-toggle-open-icon"
@@ -58,7 +31,7 @@
         class="mx-auto container grid grid-cols-12 md:gap-10 justify-between lg:mt-[200px]"
       >
         <!-- sidebar personal info -->
-        <Sidebar />
+        <Sidebar @darkModeTheme="themeMode" />
         <!-- sidebar info end -->
 
         <div class="col-span-12 lg:col-span-8">
@@ -84,6 +57,11 @@ export default {
     return {
       darkMode: false,
       showMenu: false
+    }
+  },
+  methods: {
+    themeMode (value) {
+      this.darkMode = value
     }
   }
 }
