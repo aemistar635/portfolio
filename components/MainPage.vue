@@ -10,7 +10,7 @@
       class="min-h-screen w-full flex flex-col bg-light-custom dark:bg-dark-custom bg-no-repeat bg-center bg-cover"
     >
       <div class="block lg:hidden">
-        <div class="section-bg">
+        <div class="section-bg fixed z-[1]">
           <div class="w-full flex justify-between items-center px-4">
             <DarkMode @darkMode="themeMode" />
             <div class="flex items-center">
@@ -35,7 +35,10 @@
         <!-- sidebar info end -->
 
         <div class="col-span-12 lg:col-span-8">
-          <Navbar class="lg:hidden block" :open-menu="showMenu" />
+          <Navbar
+            class="w-full lg:hidden block sticky z-[10000]"
+            :open-menu="showMenu"
+          />
 
           <!-- {{--about section--}} -->
           <AboutSection />
