@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <div class="lg:rounded-t-2xl bg-white dark:bg-[#111111]">
-      <div class="pt-12 md:py-12 px-2 sm:px-5 md:px-10 lg:px-14">
+      <div class="pt-12 md:py-12 lg:mt-0 mt-12 px-2 sm:px-5 md:px-10 lg:px-14">
         <!-- about page title -->
         <h3 class="heading dark:text-white font-bold font-robotoSlab pb-5">
           About Me
@@ -49,37 +49,31 @@
           </div>
         </div>
 
-        <div
-          class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden"
-        >
+        <div class="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden">
           <div class="col-span-12 space-y-2.5">
             <div class="lg:mr-16 text-[#44566c] dark:text-color-910">
               <p class="leading-7">
-                Over the past 9 years, as a Front-end Developer, I have
-                designed, developed, and launched customized, highly responsive
-                websites and e-commerce solutions using advanced technologies.
-                In addition, I have consistently met client expectations and
-                project milestones while working effectively in deadline-driven
-                environments. Please consider the following highlights:
+                Over the past 9 years, as a Front-end Developer, I have designed,
+                developed, and launched customized, highly responsive websites and
+                e-commerce solutions using advanced technologies. In addition, I have
+                consistently met client expectations and project milestones while working
+                effectively in deadline-driven environments. Please consider the following
+                highlights:
               </p>
               <ul class="list-disc px-6 my-3 space-y-4">
                 <li>
-                  Designed and developed front-end for 180+ webpages using
-                  jQuery, JavaScript, HTML5, and CSS/Bootstrap
+                  Designed and developed front-end for 180+ webpages using jQuery,
+                  JavaScript, HTML5, and CSS/Bootstrap
                 </li>
+                <li>Built 190+ components in ASP.Net using C# asynchronous methods</li>
                 <li>
-                  Built 190+ components in ASP.Net using C# asynchronous methods
-                </li>
-                <li>
-                  Created user-centric e-commerce sites for small business
-                  owners using various web technologies including Shopify and
-                  WordPress
+                  Created user-centric e-commerce sites for small business owners using
+                  various web technologies including Shopify and WordPress
                 </li>
               </ul>
               <p class="leading-7 mt-2.5">
-                My aim is to bring across your message and identity in the most
-                creative way. I created websites for many famous brand
-                companies.
+                My aim is to bring across your message and identity in the most creative
+                way. I created websites for many famous brand companies.
               </p>
             </div>
           </div>
@@ -103,8 +97,7 @@
                 Responsive Design
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Using responsive utility variants to build adaptive user
-                interfaces.
+                Using responsive utility variants to build adaptive user interfaces.
               </p>
             </div>
           </div>
@@ -120,8 +113,7 @@
                 Frameworks
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                I have expertise in following frontend frameworks. Vue.js,
-                Angular.js, .
+                I have expertise in following frontend frameworks. Vue.js, Angular.js, .
               </p>
             </div>
           </div>
@@ -137,8 +129,8 @@
                 PSD to HTML
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
+                volutpat.
               </p>
             </div>
           </div>
@@ -154,9 +146,9 @@
                 Cross browser compatibility
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Cross-browser compatibility is the ability of a website or web
-                application to function across different browsers and degrade
-                gracefully when browser features are absent or lacking.
+                Cross-browser compatibility is the ability of a website or web application
+                to function across different browsers and degrade gracefully when browser
+                features are absent or lacking.
               </p>
             </div>
           </div>
@@ -172,8 +164,8 @@
                 Git
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
+                volutpat.
               </p>
             </div>
           </div>
@@ -189,8 +181,8 @@
                 Web Development
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam euismod volutpat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
+                volutpat.
               </p>
             </div>
           </div>

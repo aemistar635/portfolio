@@ -1,6 +1,6 @@
 <template>
   <header
-    class="top-0 z-10 lg:relative mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
+    class="top-0 z-0 lg:relative mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
   >
     <nav>
       <div class="hidden lg:block">
@@ -22,7 +22,7 @@
       </div>
       <div v-if="openMenu" class="lg:hidden block">
         <ul
-          class="block w-full relative left-0 top-[80px] rounded-b-[20px] shadow-md z-[-1] bg-white dark:bg-[#1d1d1d]"
+          class="block w-full fixed mt-[80px] rounded-b-[20px] shadow-md bg-white dark:bg-[#1d1d1d]"
         >
           <li v-for="nav in navBar" :key="nav.name">
             <a
@@ -123,8 +123,8 @@ export default {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
     0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
 }
 .mobile-menu-items {
   display: flex;
@@ -140,10 +140,10 @@ export default {
   color: rgb(68 86 108 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, fill, stroke,
     -webkit-text-decoration-color;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke, -webkit-text-decoration-color;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -161,10 +161,10 @@ export default {
   color: rgb(250 82 82 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, fill, stroke,
     -webkit-text-decoration-color;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke;
-  transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill,
+    stroke, -webkit-text-decoration-color;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

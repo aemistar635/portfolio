@@ -44,7 +44,6 @@ export default {
   name: 'SidebarComponent',
   methods: {
     modeChange (value) {
-      console.log('enter', value)
       this.$emit('darkModeTheme', value)
     }
   }
