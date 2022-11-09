@@ -1,6 +1,6 @@
 <template>
   <header
-    class="top-0 z-0 lg:relative mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
+    class="mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
   >
     <nav>
       <div class="hidden lg:block">
@@ -22,7 +22,7 @@
       </div>
       <div v-if="openMenu" class="lg:hidden block">
         <ul
-          class="block w-full sticky mt-[80px] rounded-b-[20px] shadow-md bg-white dark:bg-[#1d1d1d]"
+          class="w-full mt-[70px] rounded-b-[20px] shadow-md bg-white dark:bg-[#1d1d1d]"
         >
           <li v-for="nav in navBar" :key="nav.name">
             <a
