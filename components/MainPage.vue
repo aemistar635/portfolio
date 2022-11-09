@@ -25,7 +25,11 @@
             </div>
           </div>
         </div>
-        <Navbar class="z-10 w-full lg:hidden block fixed" :open-menu="showMenu" />
+        <Navbar
+          class="z-10 w-full lg:hidden block fixed"
+          :open-menu="showMenu"
+          @closeMenu="showMenu = false"
+        />
       </div>
 
       <div

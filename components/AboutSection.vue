@@ -14,11 +14,11 @@
             <div class="flex flex-col">
               <!-- profile image  -->
               <div class="mx-auto mt-5">
-                <!-- <img
+                <img
                   class="mx-auto w-[240px] h-[240px] drop-shadow-xl rounded-[20px] w-full object-cover"
                   :src="require(`~/static/amir.jpeg`)"
                   alt="profile"
-                > -->
+                >
                 <!-- <img
                 src="https://bostamihtml.ibthemespro.com/images/about/avatar.jpg"
                 class="mx-auto w-[240px] h-[240px] drop-shadow-xl rounded-[20px] w-full object-cover"

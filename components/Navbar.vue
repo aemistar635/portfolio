@@ -86,6 +86,7 @@ export default {
         }
         return item
       })
+      this.$emit('closeMenu')
     }
   }
 }
