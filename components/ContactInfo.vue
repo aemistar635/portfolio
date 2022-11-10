@@ -9,8 +9,7 @@
           Phone
         </p>
         <p class="dark:text-white">
-          <!-- +92 301 8526305 -->
-          +95 302 8888888
+          +92 301 8526305
         </p>
       </div>
     </div>
@@ -23,8 +22,7 @@
           Email
         </p>
         <p class="dark:text-white">
-          <!-- aemistar635@gmail.com -->
-          example@gmail.com
+          aemistar635@gmail.com
         </p>
       </div>
     </div>
@@ -37,8 +35,7 @@
           Location
         </p>
         <p class="dark:text-white">
-          <!-- Range Road Rawalpindi -->
-          WWW Road USA
+          Range Road Rawalpindi
         </p>
       </div>
     </div>
@@ -51,7 +48,7 @@
           Birthday
         </p>
         <p class="dark:text-white">
-          Dec 19, 1975
+          Dec 19, 1991
         </p>
       </div>
     </div>
