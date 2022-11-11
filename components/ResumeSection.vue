@@ -114,49 +114,41 @@
             </h4>
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6]">Vue js</span>
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6">75%</span>
+                <span class="font-semibold text-emerald-500 dark:text-[#A6A6A6]">Vue.js & Vuex</span>
+                <span class="font-semibold text-emerald-500 dark:text-[#A6A6A6">80%</span>
               </div>
-              <div
-                class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]"
-              >
-                <div class="bg-[#FF6464] h-1 rounded-full" style="width: 75%" />
+              <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
+                <div class="bg-emerald-500 h-1 rounded-full" style="width: 80%" />
               </div>
             </div>
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6]">Bootstrap</span>
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6">80%</span>
+                <span class="font-semibold text-violet-500 dark:text-[#A6A6A6]">Bootstrap</span>
+                <span class="font-semibold text-violet-500 dark:text-[#A6A6A6">80%</span>
               </div>
-              <div
-                class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]"
-              >
+              <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
                 <div class="bg-[#9272d4] h-1 rounded-full" style="width: 80%" />
               </div>
             </div>
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6]">Tailwind Css</span>
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6">65%</span>
+                <span class="font-semibold text-orange-600 dark:text-[#A6A6A6]">HTML/CSS</span>
+                <span class="font-semibold text-orange-600 dark:text-[#A6A6A6">80%</span>
               </div>
-              <div
-                class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]"
-              >
-                <div class="bg-[#5185d4] h-1 rounded-full" style="width: 65%" />
+              <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
+                <div class="bg-orange-600 h-1 rounded-full" style="width: 80%" />
               </div>
             </div>
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6]">HTML/CSS</span>
-                <span class="font-semibold text-[#526377] dark:text-[#A6A6A6">80%</span>
+                <span class="font-semibold text-sky-300 dark:text-[#A6A6A6]">Tailwind Css</span>
+                <span class="font-semibold text-sky-300 dark:text-[#A6A6A6">65%</span>
               </div>
-              <div
-                class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]"
-              >
-                <div class="bg-[#ca56f2] h-1 rounded-full" style="width: 80%" />
+              <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
+                <div class="bg-sky-300 h-1 rounded-full" style="width: 65%" />
               </div>
             </div>
           </div>
@@ -167,10 +159,28 @@
             </h4>
             <div class="flex gap-y-5 gap-x-2.5 flex-wrap">
               <button class="resume-btn shadow rounded px-4 dark:border">
+                Nuxt.js
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
+                Sass
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
+                Javascript
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
+                Ionic
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
+                Quasar
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
                 Angular Js
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
                 Laravel
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
+                Mysql
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
                 Git
