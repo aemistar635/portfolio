@@ -3,7 +3,7 @@
     <a
       v-for="social in socialContactInfo"
       :key="social.name"
-      href="https://www.facebook.com/"
+      :href="social.href"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -22,22 +22,26 @@ export default {
         {
           name: 'Facebook',
           icon: 'fab fa-facebook-square',
-          textColor: 'text-[#1773EA]'
+          textColor: 'text-[#1773EA]',
+          href: ''
         },
         {
           name: 'Twitter',
           icon: 'fab fa-twitter-square',
-          textColor: 'text-[#1C9CEA]'
+          textColor: 'text-[#1C9CEA]',
+          href: ''
         },
         {
           name: 'Dribble',
           icon: 'fab fa-dribbble-square',
-          textColor: 'text-[#e14a84]'
+          textColor: 'text-[#e14a84]',
+          href: ''
         },
         {
           name: 'LinkedIn',
           icon: 'fab fa-linkedin',
-          textColor: 'text-[#0072b1]'
+          textColor: 'text-[#0072b1]',
+          href: 'https://www.linkedin.com/in/muhammad-aamir-072391193/'
         }
       ]
     }
