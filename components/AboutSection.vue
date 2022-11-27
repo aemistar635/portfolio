@@ -62,13 +62,15 @@
               </p>
               <ul class="list-disc px-6 my-3 space-y-4">
                 <li>
-                  Designed and developed front-end for 180+ webpages using jQuery,
+                  Designed and developed front-end webpages using jQuery,
                   JavaScript, HTML5, and CSS/Bootstrap
                 </li>
-                <li>Built 190+ components in ASP.Net using C# asynchronous methods</li>
+                <li>I can create single page application using Vue.js, Nuxt.js, Vuex and Quasar</li>
                 <li>
-                  Created user-centric e-commerce sites for small business owners using
-                  various web technologies including Shopify and WordPress
+                  Strong command of Sass and Tailwind.
+                </li>
+                <li>
+                  Knowledge with version control systems (Git).
                 </li>
               </ul>
               <p class="leading-7 mt-2.5">
@@ -126,11 +128,10 @@
             >
             <div class="space-y-2">
               <h3 class="dark:text-white text-[22px] font-semibold">
-                PSD to HTML
+                PSD/XD/Figma to HTML
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                I will do convert responsive and pixel perfect - sketch to html, psd to html, xd to html, figma to html, using bootstrap, Quasar, Tailwind css.
               </p>
             </div>
           </div>
@@ -146,9 +147,7 @@
                 Cross browser compatibility
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Cross-browser compatibility is the ability of a website or web application
-                to function across different browsers and degrade gracefully when browser
-                features are absent or lacking.
+                GIT(Gitlab/GitHub) - Workflows, Rebasing, Merging Strategies etc.,
               </p>
             </div>
           </div>
@@ -164,8 +163,8 @@
                 Git
               </h3>
               <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                I have good knowledge of git. Git is used to tracking changes in the source code, enabling multiple
+                developers to work together on non-linear development.
               </p>
             </div>
           </div>
