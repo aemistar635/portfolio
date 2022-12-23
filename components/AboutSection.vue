@@ -53,12 +53,12 @@
           <div class="col-span-12 space-y-2.5">
             <div class="lg:mr-16 text-[#44566c] dark:text-color-910">
               <p class="leading-7">
-                Over the past 9 years, as a Front-end Developer, I have designed,
-                developed, and launched customized, highly responsive websites and
-                e-commerce solutions using advanced technologies. In addition, I have
-                consistently met client expectations and project milestones while working
-                effectively in deadline-driven environments. Please consider the following
-                highlights:
+                Over the past 3 years, I have worked with clients and big Companies for their startups to help them
+                reach their goals with 100% satisfaction.
+                Ranging from basic custom website projects (HTML,CSS, Javascript, Bootstrap, Jquery) to
+                high-end large Scale Web App projects as Single Page Apps (AngularJS, VueJS), I worked on variety of shop
+                Stores (VueStoreFront), school Learning Management Systems(LMS), Brand Websites and cool animated
+                websites.
               </p>
               <ul class="list-disc px-6 my-3 space-y-4">
                 <li>
