@@ -35,8 +35,8 @@
         <Navbar />
 
         <ContactInfo />
-
         <DownloadBtn />
+
       </div>
     </div>
   </div>
