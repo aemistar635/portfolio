@@ -19,23 +19,29 @@ export default {
   data () {
     return {
       socialContactInfo: [
+        // {
+        //   name: 'Facebook',
+        //   icon: 'fab fa-facebook-square',
+        //   textColor: 'text-[#1773EA]',
+        //   href: ''
+        // },
+        // {
+        //   name: 'Twitter',
+        //   icon: 'fab fa-twitter-square',
+        //   textColor: 'text-[#1C9CEA]',
+        //   href: ''
+        // },
+        // {
+        //   name: 'Dribble',
+        //   icon: 'fab fa-dribbble-square',
+        //   textColor: 'text-[#e14a84]',
+        //   href: ''
+        // },
         {
-          name: 'Facebook',
-          icon: 'fab fa-facebook-square',
-          textColor: 'text-[#1773EA]',
-          href: ''
-        },
-        {
-          name: 'Twitter',
-          icon: 'fab fa-twitter-square',
-          textColor: 'text-[#1C9CEA]',
-          href: ''
-        },
-        {
-          name: 'Dribble',
-          icon: 'fab fa-dribbble-square',
-          textColor: 'text-[#e14a84]',
-          href: ''
+          name: 'Github',
+          icon: 'fab fa-github',
+          textColor: 'text-[#000]',
+          href: 'https://github.com/aemistar635'
         },
         {
           name: 'LinkedIn',

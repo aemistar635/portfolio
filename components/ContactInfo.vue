@@ -9,7 +9,7 @@
           Phone
         </p>
         <p class="dark:text-white">
-          +92 301 8526305
+          +92 301 8526305 / +92 343 8417816
         </p>
       </div>
     </div>

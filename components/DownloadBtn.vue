@@ -1,7 +1,7 @@
 <template>
   <button class="download-btn">
-    <i class="fas fa-download" />
-    <a href="/resume.pdf" target="_blank">
+    <i class="fas fa-download mr-2" />
+    <a href="/M.Aamir-Resume.pdf" target="_blank">
     Download CV
     </a>
   </button>

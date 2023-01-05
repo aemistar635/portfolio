@@ -9,7 +9,7 @@
       />
       <!-- profile image -->
       <img
-        class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
+        class="scale-100 hover:scale-75 ease-in duration-300 w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
         :src="require(`~/static/amir.jpeg`)"
         alt="profile"
       >
@@ -26,7 +26,7 @@
         <h3
           class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]"
         >
-          Frontend Developer
+          Senior Frontend Developer
           <!-- Ui/Ux Designer -->
         </h3>
 

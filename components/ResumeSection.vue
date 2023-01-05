@@ -145,10 +145,10 @@
             <div class="mb-5">
               <div class="flex justify-between mb-1">
                 <span class="font-semibold text-sky-300 dark:text-[#A6A6A6]">Tailwind Css</span>
-                <span class="font-semibold text-sky-300 dark:text-[#A6A6A6">65%</span>
+                <span class="font-semibold text-sky-300 dark:text-[#A6A6A6">75%</span>
               </div>
               <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
-                <div class="bg-sky-300 h-1 rounded-full" style="width: 65%" />
+                <div class="bg-sky-300 h-1 rounded-full" style="width: 75%" />
               </div>
             </div>
           </div>

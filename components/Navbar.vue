@@ -66,13 +66,13 @@ export default {
           icon: 'fas fa-briefcase',
           active: false,
           href: '#work'
-        },
-        {
-          name: 'Contact',
-          icon: 'far fa-address-book',
-          active: false,
-          href: '#contact'
         }
+        // {
+        //   name: 'Contact',
+        //   icon: 'far fa-address-book',
+        //   active: false,
+        //   href: '#contact'
+        // }
       ]
     }
   },
