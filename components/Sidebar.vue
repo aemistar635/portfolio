@@ -36,7 +36,6 @@
 
         <ContactInfo />
         <DownloadBtn />
-
       </div>
     </div>
   </div>

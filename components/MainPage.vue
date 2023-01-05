@@ -46,7 +46,7 @@
           <!-- {{--resume section--}} -->
           <ResumeSection />
           <!-- {{--Contact section--}} -->
-<!--          <ContactSection />-->
+          <!--          <ContactSection />-->
         </div>
       </div>
     </div>
