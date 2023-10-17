@@ -17,3 +17,8 @@
   .dark .dark\:text-white {
     color:#fff !important;
   }
+  .dark .dark\:bg-side-info  {background-color:#1D1D1D !important;}
+  .dark .dark\:side-info-text  {color:#A6A6A6 !important;}
+  .dark .dark\:border {
+    border-width: 1px !important;
+}

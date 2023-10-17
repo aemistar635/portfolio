@@ -105,7 +105,7 @@
       <!-- working section start -->
       <div
         id="work"
-        class="container bg-stone-50 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20"
+        class="container bg-stone-50 dark:bg-black py-12 px-2 sm:px-5 md:px-10 lg:px-20"
       >
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="col-span-1">
