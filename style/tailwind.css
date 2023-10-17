@@ -1,3 +1,16 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.dark .dark\:bg-Pic-dark {
+    background-image: url("../static/bgtwo.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .bg-Pic {
+    background-image: url("static/bg-light.jpg");
+    background-size: 100% 100%;
+  }
+.dark .dark\:bg-black {
+    background-color:#111111 !important;
+  }
