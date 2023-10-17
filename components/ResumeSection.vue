@@ -114,7 +114,7 @@
             </h4>
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-emerald-500 dark:text-[#A6A6A6]">Vue.js & Vuex</span>
+                <span class="font-semibold text-emerald-500 dark:text-white">Vue.js & Vuex</span>
                 <span class="font-semibold text-emerald-500 dark:text-[#A6A6A6">80%</span>
               </div>
               <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
@@ -124,7 +124,7 @@
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-violet-500 dark:text-[#A6A6A6]">Bootstrap</span>
+                <span class="font-semibold text-violet-500 dark:text-white">Bootstrap</span>
                 <span class="font-semibold text-violet-500 dark:text-[#A6A6A6">80%</span>
               </div>
               <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
@@ -134,7 +134,7 @@
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-orange-600 dark:text-[#A6A6A6]">HTML/CSS</span>
+                <span class="font-semibold text-orange-600 dark:text-white">HTML/CSS</span>
                 <span class="font-semibold text-orange-600 dark:text-[#A6A6A6">80%</span>
               </div>
               <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">
@@ -144,7 +144,7 @@
 
             <div class="mb-5">
               <div class="flex justify-between mb-1">
-                <span class="font-semibold text-sky-300 dark:text-[#A6A6A6]">Tailwind Css</span>
+                <span class="font-semibold text-sky-300 dark:text-white">Tailwind Css</span>
                 <span class="font-semibold text-sky-300 dark:text-[#A6A6A6">75%</span>
               </div>
               <div class="w-full bg-[#edf2f2] rounded-full h-1 dark:bg-[#1c1c1c]">

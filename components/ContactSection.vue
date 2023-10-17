@@ -8,7 +8,7 @@
       class="mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2 bg-[#F3F6F6] rounded-xl dark:bg-black mb-[30px] md:mb-[60px]"
     >
       <h3 class="text-4xl">
-        <p class="text-gray-lite dark:text-[#A6A6A6] mb-1">
+        <p class="text-gray-lite dark:text-white mb-1">
           I'm always open to discussing product
         </p>
         <p class="font-semibold dark:text-white">

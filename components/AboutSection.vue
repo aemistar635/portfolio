@@ -31,7 +31,7 @@
                   <!-- Monalisa Ashley -->
                 </h2>
                 <h3
-                  class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]"
+                  class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-white"
                 >
                   Frontend Developer
                   <!-- Ui/Ux Designer -->
@@ -98,7 +98,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Responsive Design
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 Using responsive utility variants to build adaptive user interfaces.
               </p>
             </div>
@@ -114,7 +114,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Frameworks
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 I have expertise in following frontend frameworks. Vue.js, Angular.js, .
               </p>
             </div>
@@ -130,7 +130,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 PSD/XD/Figma to HTML
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 I will do convert responsive and pixel perfect - sketch to html, psd to html, xd to html, figma to html, using bootstrap, Quasar, Tailwind css.
               </p>
             </div>
@@ -146,7 +146,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Cross browser compatibility
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 GIT(Gitlab/GitHub) - Workflows, Rebasing, Merging Strategies etc.,
               </p>
             </div>
@@ -162,7 +162,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Git
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 I have good knowledge of git. Git is used to tracking changes in the source code, enabling multiple
                 developers to work together on non-linear development.
               </p>
@@ -179,7 +179,7 @@
               <h3 class="dark:text-white text-[22px] font-semibold">
                 Web Development
               </h3>
-              <p class="leading-8 text-gray-lite dark:text-[#A6A6A6]">
+              <p class="leading-8 text-gray-lite dark:text-white">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
                 volutpat.
               </p>

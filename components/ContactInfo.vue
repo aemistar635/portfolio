@@ -5,7 +5,7 @@
         <i class="fas fa-mobile-alt" />
       </span>
       <div class="text-left ml-2.5">
-        <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">
+        <p class="text-xs text-[#44566C] dark:text-white">
           Phone
         </p>
         <p class="dark:text-white">
@@ -18,7 +18,7 @@
         <i class="far fa-envelope" />
       </span>
       <div class="text-left ml-2.5">
-        <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">
+        <p class="text-xs text-[#44566C] dark:text-white">
           Email
         </p>
         <p class="dark:text-white">
@@ -31,7 +31,7 @@
         <i class="fas fa-map-marker-alt" />
       </span>
       <div class="text-left ml-2.5">
-        <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">
+        <p class="text-xs text-[#44566C] dark:text-white">
           Location
         </p>
         <p class="dark:text-white">
@@ -44,7 +44,7 @@
         <i class="far fa-calendar-alt" />
       </span>
       <div class="text-left ml-2.5">
-        <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">
+        <p class="text-xs text-[#44566C] dark:text-white">
           Birthday
         </p>
         <p class="dark:text-white">
