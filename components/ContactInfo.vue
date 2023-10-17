@@ -1,5 +1,5 @@
 <template>
-  <div class="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
+  <div class="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-side-info">
     <div class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
       <span class="text-[#E93B81]">
         <i class="fas fa-mobile-alt" />

@@ -31,7 +31,7 @@
                   <!-- Monalisa Ashley -->
                 </h2>
                 <h3
-                  class="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-white"
+                  class="mb-4 text-[#7B7B7B] inline-block dark:bg-side-info px-5 py-1.5 rounded-lg dark:text-white"
                 >
                   Frontend Developer
                   <!-- Ui/Ux Designer -->

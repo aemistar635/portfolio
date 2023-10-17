@@ -22,33 +22,33 @@
               <div
                 class="bg-[#fff4f4] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2011-2013</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2011-2013</span>
                 <h3 class="text-xl dark:text-white">
                   MCS (Master in computer science)
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   Islamia University, Bahawalpur, Pakistan
                 </p>
               </div>
               <div
                 class="bg-[#fff1fb] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2009-2011</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2009-2011</span>
                 <h3 class="text-xl dark:text-white">
                   BSC
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   The Best College, Bahawalpur, Pakistan
                 </p>
               </div>
               <div
                 class="py-4 pl-5 bg-[#fff4f4] dark:bg-transparent pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2007-2009</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2007-2009</span>
                 <h3 class="text-xl dark:text-white">
                   ICS
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   Federal College, Bahawalpur, Pakistan
                 </p>
               </div>
@@ -66,33 +66,33 @@
               <div
                 class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#eef5fa] dark:bg-transparent dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2022-Present</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2022-Present</span>
                 <h3 class="text-xl dark:text-white">
                   Frontend Developer
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   Darvis
                 </p>
               </div>
               <div
                 class="bg-[#f2f4ff] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019-2022</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2019-2022</span>
                 <h3 class="text-xl dark:text-white">
                   Web Developer
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   The App Makers
                 </p>
               </div>
               <div
                 class="py-4 bg-[#eef5fa] dark:bg-transparent pl-5 pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2008</span>
+                <span class="text-tiny text-gray-lite dark:text-white">2008</span>
                 <h3 class="text-xl dark:text-white">
                   Best Writter
                 </h3>
-                <p class="dark:text-[#b7b7b7]">
+                <p class="dark:text-white">
                   Online Typodev Soluation Ltd.
                 </p>
               </div>
