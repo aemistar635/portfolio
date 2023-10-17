@@ -1,13 +1,13 @@
 <!-- Please remove this file from your project -->
 <template>
   <div
-    class="bg-white font-['Poppins'] dark:bg-gray-700 dark:text-white transition-all duration-1000"
+    class="bg-white font-['Poppins'] dark:['bg-gray-700','text-white'] transition-all duration-1000"
     :class="darkMode ? 'dark' : 'light'"
   >
     <!-- {{--    nav-bar--}} -->
     <div
       id="nav"
-      class="min-h-screen w-full flex flex-col bg-light-custom dark:bg-dark-custom bg-no-repeat bg-center bg-cover"
+      class="min-h-screen w-full flex flex-col bg-Pic dark:bg-Pic-dark bg-no-repeat bg-center bg-cover"
     >
       <div class="block lg:hidden">
         <div class="section-bg fixed z-20">
@@ -70,6 +70,15 @@ export default {
 }
 </script>
 <style>
+.dark .dark\:bg-Pic-dark {
+  background-image: url("../static/bgtwo.jpg");
+  background-size: 100% 100%;
+}
+
+.bg-Pic {
+  background-image: url("static/bg-light.jpg");
+  background-size: 100% 100%;
+}
 .section-bg {
   display: flex;
   width: 100%;

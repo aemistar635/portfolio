@@ -22,5 +22,10 @@ module.exports = {
       })
     }
   },
+  variants: {
+    extend: {
+      backgroundImage: ['dark'],
+    },
+  },
   plugins: []
 }
