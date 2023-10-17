@@ -1,11 +1,11 @@
 <template>
-  <div id="contact" class="bg-white lg:rounded-b-2xl dark:bg-[#111111] py-10">
+  <div id="contact" class="bg-white lg:rounded-b-2xl dark:bg-black py-10">
     <SuccessModel v-if="sendMailStatus" />
     <h3 class="heading dark:text-white font-bold px-2 sm:px-5 md:px-10 lg:px-14 mb-4">
       Contact
     </h3>
     <div
-      class="mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2 bg-[#F3F6F6] rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]"
+      class="mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2 bg-[#F3F6F6] rounded-xl dark:bg-black mb-[30px] md:mb-[60px]"
     >
       <h3 class="text-4xl">
         <p class="text-gray-lite dark:text-[#A6A6A6] mb-1">

@@ -1,7 +1,7 @@
 <template>
   <div id="resume">
     <!-- resume section start -->
-    <div class="bg-white dark:bg-[#111111]">
+    <div class="bg-white dark:bg-black">
       <div class="container sm:px-5 md:px-10 lg:px-14">
         <div class="py-12 px-4 md:px-0">
           <!-- resume page title -->

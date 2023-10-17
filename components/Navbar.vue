@@ -1,6 +1,6 @@
 <template>
   <header
-    class="mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-[#111111]"
+    class="mt-2 lg:mt-5 lg:border block lg:py-[25px] lg:rounded-[16px] bg-gray-100/75 lg:bg-white dark:bg-black"
   >
     <nav>
       <div class="hidden lg:block">

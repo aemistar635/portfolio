@@ -1,7 +1,7 @@
 <template>
   <div class="col-span-12 lg:col-span-4 hidden lg:block h-screen sticky top-44">
     <div
-      class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0"
+      class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-black px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0"
     >
       <DarkMode
         class="absolute top-[10px] right-[5px] xl:top-[20px] xl:right-[20px]"

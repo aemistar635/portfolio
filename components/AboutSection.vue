@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <div class="lg:rounded-t-2xl bg-white dark:bg-[#111111]">
+    <div class="lg:rounded-t-2xl bg-white dark:bg-black">
       <div class="pt-12 md:py-12 lg:mt-0 mt-12 px-2 sm:px-5 md:px-10 lg:px-14">
         <!-- about page title -->
         <h3 class="heading dark:text-white font-bold font-robotoSlab pb-5">
@@ -9,7 +9,7 @@
         <!-- personal info for mobile devices start -->
         <div class="lg:hidden">
           <div
-            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] md:mt-[50px] lg:mt-0"
+            class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-black px-6 rounded-[20px] md:mt-[50px] lg:mt-0"
           >
             <div class="flex flex-col">
               <!-- profile image  -->
