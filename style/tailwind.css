@@ -14,3 +14,6 @@
 .dark .dark\:bg-black {
     background-color:#111111 !important;
   }
+  .dark .dark\:text-white {
+    color:#fff !important;
+  }
