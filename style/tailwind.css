@@ -22,3 +22,6 @@
   .dark .dark\:border {
     border-width: 1px !important;
 }
+.dark .dark\:bg-transparent {
+    background-color: transparent !important;
+}
