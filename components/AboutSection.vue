@@ -53,24 +53,30 @@
           <div class="col-span-12 space-y-2.5">
             <div class="lg:mr-16 text-[#44566c] dark:text-color-910">
               <p class="leading-7">
-                Over the past 3 years, I have worked with clients and big Companies for their startups to help them
+                I’m a passionate Frontend Software Engineer with 3.5 years of experience in crafting user-centric web applications. 
+                As a professional front-end web developer, I am adept at creating large-scale single-page applications and landing 
+                websites using VueJS, NuxtJs, ReactJs, TypeScript, JavaScript, HTML, and CSS. I am also proficient in Quasar, Bootstrap, Bootstrap-Vue,
+                Konva, HighChart, ChartJS, Git, Docker, Cypress, Node Modules, Ionic, and other frontend technologies.
+                <!-- Over the past 3 years, I have worked with clients and big Companies for their startups to help them
                 reach their goals with 100% satisfaction.
                 Ranging from basic custom website projects (HTML,CSS, Javascript, Bootstrap, Jquery) to
-                high-end large Scale Web App projects as Single Page Apps (AngularJS, VueJS), I worked on variety of shop
+                high-end large Scale Web App projects as Single Page Apps (AngularJS, VueJS, ReactJs), I worked on variety of shop
                 Stores (VueStoreFront), school Learning Management Systems(LMS), Brand Websites and cool animated
-                websites.
+                websites. -->
               </p>
               <ul class="list-disc px-6 my-3 space-y-4">
                 <li>
-                  Designed and developed front-end webpages using jQuery,
-                  JavaScript, HTML5, and CSS/Bootstrap
+                  Designed and developed front-end webpages using Boostrap,Vue-Boostrap,Quasar,TailwindCss,
+                  HTML5, and CSS.
                 </li>
-                <li>I can create single page application using Vue.js, Nuxt.js, Vuex and Quasar</li>
+                <li>Dashboard & single page application development using Vue.js, Nuxt.js, Vuex and Quasar</li>
+                <li>Implement state management solutions such as Vuex/Pinia to manage application state.</li>
                 <li>
-                  Strong command of Sass and Tailwind.
+                  Dockerize the Vue JS application and deploy it into a Docker container.
                 </li>
+                <li>Using Axios or the built-in fetch API and WebSocket to communicate with the backend.</li>
                 <li>
-                  Knowledge with version control systems (Git).
+                  Knowledge with version control systems (GitHub, GitLab).
                 </li>
               </ul>
               <p class="leading-7 mt-2.5">
@@ -115,7 +121,7 @@
                 Frameworks
               </h3>
               <p class="leading-8 text-gray-lite dark:text-white">
-                I have expertise in following frontend frameworks. Vue.js, Angular.js, .
+                I have expertise in following frontend frameworks. Vue.js, React,js, Angular.js, .
               </p>
             </div>
           </div>
@@ -147,7 +153,9 @@
                 Cross browser compatibility
               </h3>
               <p class="leading-8 text-gray-lite dark:text-white">
-                GIT(Gitlab/GitHub) - Workflows, Rebasing, Merging Strategies etc.,
+                Proficient in ensuring seamless cross-browser compatibility for web applications
+                 through adherence to web standards, 
+                rigorous testing, and responsive design principles.
               </p>
             </div>
           </div>
@@ -163,8 +171,9 @@
                 Git
               </h3>
               <p class="leading-8 text-gray-lite dark:text-white">
-                I have good knowledge of git. Git is used to tracking changes in the source code, enabling multiple
-                developers to work together on non-linear development.
+                Skilled in version control with Git, demonstrating expertise in managing
+                 collaborative software development, branch management, and ensuring code
+                  integrity throughout project lifecycles.
               </p>
             </div>
           </div>
@@ -180,8 +189,9 @@
                 Web Development
               </h3>
               <p class="leading-8 text-gray-lite dark:text-white">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod
-                volutpat.
+                Experienced web developer with a strong proficiency in creating dynamic and responsive websites,
+                 utilizing a diverse skill set encompassing HTML, CSS, JavaScript,
+                  and familiarity with modern frameworks.
               </p>
             </div>
           </div>

@@ -22,7 +22,7 @@
               <div
                 class="bg-[#fff4f4] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-white">2011-2013</span>
+                <span class="text-tiny text-gray-lite dark:text-white">&nbsp</span>
                 <h3 class="text-xl dark:text-white">
                   MCS (Master in computer science)
                 </h3>
@@ -33,7 +33,7 @@
               <div
                 class="bg-[#fff1fb] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2"
               >
-                <span class="text-tiny text-gray-lite dark:text-white">2009-2011</span>
+              <span class="text-tiny text-gray-lite dark:text-white">&nbsp</span>
                 <h3 class="text-xl dark:text-white">
                   BSC
                 </h3>
@@ -41,17 +41,7 @@
                   The Best College, Bahawalpur, Pakistan
                 </p>
               </div>
-              <div
-                class="py-4 pl-5 bg-[#fff4f4] dark:bg-transparent pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2"
-              >
-                <span class="text-tiny text-gray-lite dark:text-white">2007-2009</span>
-                <h3 class="text-xl dark:text-white">
-                  ICS
-                </h3>
-                <p class="dark:text-white">
-                  Federal College, Bahawalpur, Pakistan
-                </p>
-              </div>
+             
             </div>
             <!-- eductation end -->
 
@@ -68,10 +58,10 @@
               >
                 <span class="text-tiny text-gray-lite dark:text-white">2022-Present</span>
                 <h3 class="text-xl dark:text-white">
-                  Frontend Developer
+                  Senior Frontend Developer (VueJs)
                 </h3>
                 <p class="dark:text-white">
-                  Darvis
+                  Darvis Inc
                 </p>
               </div>
               <div
@@ -85,7 +75,7 @@
                   The App Makers
                 </p>
               </div>
-              <div
+              <!-- <div
                 class="py-4 bg-[#eef5fa] dark:bg-transparent pl-5 pr-3 space-y-2 rounded-lg dark:border-[#212425] dark:border-2"
               >
                 <span class="text-tiny text-gray-lite dark:text-white">2008</span>
@@ -95,7 +85,7 @@
                 <p class="dark:text-white">
                   Online Typodev Soluation Ltd.
                 </p>
-              </div>
+              </div> -->
             </div>
             <!-- experiment start -->
           </div>
