@@ -152,6 +152,9 @@
                 Nuxt.js
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
+                React.js
+              </button>
+              <button class="resume-btn shadow rounded px-4 dark:border">
                 Sass
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
@@ -164,7 +167,7 @@
                 Quasar
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
-                Angular Js
+                Angular.js
               </button>
               <button class="resume-btn shadow rounded px-4 dark:border">
                 Laravel
