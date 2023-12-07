@@ -92,6 +92,99 @@
         </div>
       </div>
 
+      <!-- projects section -->
+      <div class="container sm:px-5 md:px-10 lg:px-14">
+        <div class="py-12 px-4 md:px-0">
+          <!-- resume page title -->
+          <h2 class="heading dark:text-white font-bold font-robotoSlab pb-5">
+            Projects
+          </h2>
+          <div
+            class="grid grid-cols-1 gap-x-6 gap-y-6 mt-[30px]"
+          >
+            <!-- eductation start -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              
+              <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/schoolpk/thumb.svg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SchoolPk</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">School,College & University management system.</p>
+        
+    </div>
+</div>
+
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/schoolpk-guardian-app/thumb.svg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SchoolPk Guardian App</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">SchoolPk app for parents.</p>
+        
+    </div>
+</div>
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/impact-footwear-configurator/thumb.svg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Impact Footwear Configurator</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Design your footwear before buying.</p>
+        
+    </div>
+</div>
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/sooperseller/thumb.svg" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SooperSeller</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Daraz.pk seller center on steroid.</p>
+        
+    </div>
+</div>
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="https://scontent.fisb12-1.fna.fbcdn.net/v/t1.6435-9/101030206_2704791016292263_5282854059487789056_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeHKGmQ8_JllPsj5LukEODAEqRINYHf6_YepEg1gd_r9h2oCB3k8xVllCxjrSgELZ8HDQ6dFuOOMZabtOQVqB6Pb&_nc_ohc=XD_enN19tu4AX9M5MnF&_nc_ht=scontent.fisb12-1.fna&oh=00_AfD99QaFRBdh4yG5gSnjGzTJ8118o_hug_dgOTDj_vcOqQ&oe=6599070A" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">HaleemGhar</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Delicious cuisine delivered fast, offering diverse menus for satisfying cravings.</p>
+        
+    </div>
+</div>
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" :src="require(`~/static/projects/handbag.png`)" alt="" />
+    </a>
+    <div class="p-5">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Handbag</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Elevate style with curated handbags, reflecting timeless fashion trends.</p>
+        
+    </div>
+</div>
+
+            </div>
+            <!-- eductation end -->
+          </div>
+        </div>
+      </div>
+
       <!-- working section start -->
       <div
         id="work"
