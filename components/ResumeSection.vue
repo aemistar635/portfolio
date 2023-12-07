@@ -106,7 +106,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
               
               <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://schoolpk.com/" target="_blank">
         <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/schoolpk/thumb.svg" alt="" />
     </a>
     <div class="p-5">
@@ -119,7 +119,7 @@
 </div>
 
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://play.google.com/store/apps/details?id=com.schoolpk.guardians" target="_blank">
         <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/schoolpk-guardian-app/thumb.svg" alt="" />
     </a>
     <div class="p-5">
@@ -131,7 +131,7 @@
     </div>
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://impactfootwear.com/"  target="_blank">
         <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/impact-footwear-configurator/thumb.svg" alt="" />
     </a>
     <div class="p-5">
@@ -143,7 +143,7 @@
     </div>
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://www.sooperseller.com/" target="_blank">
         <img class="rounded-t-lg" src="https://appmakers.pk/images/project-images/sooperseller/thumb.svg" alt="" />
     </a>
     <div class="p-5">
@@ -155,7 +155,7 @@
     </div>
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://www.haleemghar.com.pk/" target="_blank">
         <img class="rounded-t-lg" src="https://scontent.fisb12-1.fna.fbcdn.net/v/t1.6435-9/101030206_2704791016292263_5282854059487789056_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeHKGmQ8_JllPsj5LukEODAEqRINYHf6_YepEg1gd_r9h2oCB3k8xVllCxjrSgELZ8HDQ6dFuOOMZabtOQVqB6Pb&_nc_ohc=XD_enN19tu4AX9M5MnF&_nc_ht=scontent.fisb12-1.fna&oh=00_AfD99QaFRBdh4yG5gSnjGzTJ8118o_hug_dgOTDj_vcOqQ&oe=6599070A" alt="" />
     </a>
     <div class="p-5">
@@ -167,7 +167,7 @@
     </div>
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
-    <a href="#">
+    <a href="https://www.thehandbagofthegods.com/" target="_blank">
         <img class="rounded-t-lg" :src="require(`~/static/projects/handbag.png`)" alt="" />
     </a>
     <div class="p-5">
