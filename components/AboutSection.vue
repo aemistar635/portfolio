@@ -191,7 +191,7 @@
               <p class="leading-8 text-gray-lite dark:text-white">
                 Experienced web developer with a strong proficiency in creating dynamic and responsive websites,
                  utilizing a diverse skill set encompassing HTML, CSS, JavaScript,
-                  and familiarity with modern frameworks.
+                  and familiarity with modern frameworks..
               </p>
             </div>
           </div>
