@@ -21,7 +21,7 @@ export default {
       const link = document.createElement('a');
       link.href = pdfUrl;
       link.target = '_blank'; // Open in a new tab if you prefer
-      link.download = 'document.pdf';
+      link.download = 'Resume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
