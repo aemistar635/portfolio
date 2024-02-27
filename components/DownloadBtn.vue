@@ -1,14 +1,32 @@
 <template>
-  <button class="download-btn">
+  <button class="download-btn" @click="downloadPdf">
     <i class="fas fa-download mr-2" />
-    <a href="/M.Aamir-Resume.pdf" target="_blank">
+    <!-- <a href="./static/M.Aamir-Resume.pdf" target="_blank"> -->
       Download CV
-    </a>
+    <!-- </a> -->
   </button>
 </template>
 <script>
 export default {
-  name: 'DownloadBtn'
+  name: 'DownloadBtn',
+  methods: {
+    downloadPdf() {
+      // Assuming the PDF file is in the static folder
+      const pdfPath = './M.Aamir-Resume.pdf';
+
+      // Get the absolute URL of the PDF file
+      const pdfUrl = 'http://localhost:3000/' + pdfPath;
+
+      // Trigger download using an anchor element
+      const link = document.createElement('a');
+      link.href = pdfUrl;
+      link.target = '_blank'; // Open in a new tab if you prefer
+      link.download = 'document.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    },
+  },
 }
 </script>
 <style>
