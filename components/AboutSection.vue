@@ -53,7 +53,7 @@
           <div class="col-span-12 space-y-2.5">
             <div class="lg:mr-16 text-[#44566c] dark:text-color-910">
               <p class="leading-7">
-                I’m a passionate Frontend Software Engineer with 3.5 years of experience in crafting user-centric web applications. 
+                I’m a passionate Frontend Software Engineer with 4 years of experience in crafting user-centric web applications. 
                 As a professional front-end web developer, I am adept at creating large-scale single-page applications and landing 
                 websites using VueJS, NuxtJs, ReactJs, TypeScript, JavaScript, HTML, and CSS. I am also proficient in Quasar, Bootstrap, Bootstrap-Vue,
                 Konva, HighChart, ChartJS, Git, Docker, Cypress, Node Modules, Ionic, and other frontend technologies.

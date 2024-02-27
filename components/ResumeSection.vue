@@ -58,7 +58,7 @@
               >
                 <span class="text-tiny text-gray-lite dark:text-white">2022-Present</span>
                 <h3 class="text-xl dark:text-white">
-                  Senior Frontend Developer (VueJs)
+                  Senior Frontend Developer (VueJs,ReactJs)
                 </h3>
                 <p class="dark:text-white">
                   Darvis Inc
@@ -156,7 +156,7 @@
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
     <a href="https://www.haleemghar.com.pk/" target="_blank">
-        <img class="rounded-t-lg" src="https://scontent.fisb12-1.fna.fbcdn.net/v/t1.6435-9/101030206_2704791016292263_5282854059487789056_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeHKGmQ8_JllPsj5LukEODAEqRINYHf6_YepEg1gd_r9h2oCB3k8xVllCxjrSgELZ8HDQ6dFuOOMZabtOQVqB6Pb&_nc_ohc=XD_enN19tu4AX9M5MnF&_nc_ht=scontent.fisb12-1.fna&oh=00_AfD99QaFRBdh4yG5gSnjGzTJ8118o_hug_dgOTDj_vcOqQ&oe=6599070A" alt="" />
+        <img class="rounded-t-lg" :src="require(`~/static/projects/haleem-ghar.jpg`)" alt="haleem ghar" />
     </a>
     <div class="p-5">
         <a href="#">
@@ -168,13 +168,25 @@
 </div>
 <div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
     <a href="https://www.thehandbagofthegods.com/" target="_blank">
-        <img class="rounded-t-lg" :src="require(`~/static/projects/handbag.png`)" alt="" />
+        <img class="rounded-t-lg" :src="require(`~/static/projects/handbag.png`)" alt="The Handbag" />
     </a>
     <div class="p-5">
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Handbag</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Elevate style with curated handbags, reflecting timeless fashion trends.</p>
+        
+    </div>
+</div>
+<div class="max-w-sm  bg-[#fff4f4] dark:bg-transparent border border-gray-200 rounded-lg shadow dark:border-gray-700">
+    <a href="https://darvis.com/" target="_blank">
+        <img class="rounded-t-lg" :src="require(`~/static/projects/omni-room.png`)" alt="Omniroom" />
+    </a>
+    <div class="p-5">
+        <a href="https://darvis.com/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Omniroom</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">AI based product for detecting objects and show their productivity</p>
         
     </div>
 </div>
