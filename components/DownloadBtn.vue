@@ -15,7 +15,7 @@ export default {
       const pdfPath = './M.Aamir-Resume.pdf';
 
       // Get the absolute URL of the PDF file
-      const pdfUrl = 'http://localhost:3000/' + pdfPath;
+      const pdfUrl = 'https://aamir635.netlify.app/' + pdfPath;
 
       // Trigger download using an anchor element
       const link = document.createElement('a');
